@@ -1,0 +1,43 @@
+.cta {
+  background-color: $blue-secondary;
+
+  &__inner {
+    background-color: $white-primary;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  &__input {
+    margin-right: 30px;
+  }
+  &__button {
+    width: 100%;
+    max-width: 260px;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: $laptop) {
+  .cta {
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .cta {
+
+    &__inner {
+      padding: 20px;
+    }
+
+    &__input {
+      margin-right: 0;
+    }
+  }
+}

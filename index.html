@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Главная</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="/" class="logo">
+          <img src="./img/logo.png" alt="Логотип" class="logo__img">
+        </a>
+        <a href="tel:+79361003131" class="header__phone">
+          <img src="./img/icons/phone-icon.svg" alt="Позвоните нам">
+          +7 (936) 100-31-31
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="menu">
+      <div class="container">
+        <div class="menu__inner">
+          <a href="/" class="menu__item">Преимущества</a>
+          <a href="/" class="menu__item">Услуги</a>
+          <a href="/" class="menu__item">Этапы работы</a>
+          <a href="/" class="menu__item">Портфолио</a>
+          <a href="/" class="menu__item">Отзывы</a>
+          <a href="/" class="menu__item">Документы</a>
+          <a href="/" class="menu__item">Контакты</a>
+        </div>
+      </div>
+    </div>
+    <section class="section banner">
+      <div class="container">
+        <a href="tel:+79361003131" class="banner__promo">Для звонка наберите номер +7 (936) 100-31-31</a>
+        <div class="banner__content">
+          <h1 class="banner__title">
+            Откачка септика в Пушкинском районе
+          </h1>
+          <div class="banner__subtitle">
+            Для современного мира граница обучения кадров не оставляет шанса для как самодостаточных, так и внешне зависимых концептуальных решений.
+          </div>
+          <button class="button banner__button js-open-modal" data-fancybox="contact-form" data-src="#modal-form">Оставить заявку</button>
+        </div>
+      </div>
+    </section>
+    <section class="section advantages">
+      <div class="container">
+        <h2 class="title advantages__title">Преимущества</h2>
+        <div class="advantages__inner">
+          <div class="advantages__items">
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Оперативность</div>
+              <div class="advantages__item-text">Приезжаем на откачку в течении часа после оформления заявки</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Безопасно</div>
+              <div class="advantages__item-text">Используем обрабатывающие средства</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Качественно</div>
+              <div class="advantages__item-text">Все работы выполнит опытный сертифицированный мастер</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Не дорого</div>
+              <div class="advantages__item-text">Вот уже 3 года мы не повышаем цены на обслуживание и ремонт септиков</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Умеем всё</div>
+              <div class="advantages__item-text">Обслуживаем все модели аэрационных станций, гибридных станций и септиков</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-ttile">Надёжно</div>
+              <div class="advantages__item-text">Мы используем только оригинальные запчасти. Ваш септик всегда как новый.</div>
+            </div>
+          </div>
+          <img src="./img/advantages/advantages-img.jpg" alt="Преимущества" class="advantages__img">
+        </div>
+      </div>
+    </section>
+    <section class="section services">
+      <div class="container">
+        <h2 class="title services__title">Услуги нашей компании</h2>
+        <div class="services__items">
+          <div class="services__item">
+            <img src="./img/services/services-item-1.jpg" alt="" class="services__item-img">
+            <div class="services__item-content">
+              <h4 class="services__item-title">Откачка, чистка и ремонт септиков</h4>
+              <p class="services__item-text">При откачке септика не следует откачивать весь ил со дна, чтобы остались нужные бактерии для его заражения</p>
+              <div class="services__item-footer">
+                <div class="services__item-price">от 1200 р.</div>
+                <button class="services__item-btn" data-fancybox="contact-form-6" data-src="#modal-form">
+                  Оставить заявку
+                  <img src="./img/icons/arrow-icon.svg" alt="Откачка, чистка и ремонт септиков">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="./img/services/services-item-2.jpg" alt="" class="services__item-img">
+            <div class="services__item-content">
+              <h4 class="services__item-title">Откачка выгребных ям</h4>
+              <p class="services__item-text">Для откачки выгребной ямы может понадобиться вода для ее разжижения</p>
+              <div class="services__item-footer">
+                <div class="services__item-price">от 1200 р.</div>
+                <button class="services__item-btn" data-fancybox="contact-form-7" data-src="#modal-form">
+                  Оставить заявку
+                  <img src="./img/icons/arrow-icon.svg" alt="Откачка выгребных ям">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="./img/services/services-item-3.jpg" alt="" class="services__item-img">
+            <div class="services__item-content">
+              <h4 class="services__item-title">Ассенизаторская машина</h4>
+              <p class="services__item-text">Откачка жидких бытовых отходов при необходимости (ЖБО)</p>
+              <div class="services__item-footer">
+                <div class="services__item-price">от 1200 р.</div>
+                <button class="services__item-btn" data-fancybox="contact-form-7" data-src="#modal-form">
+                  Оставить заявку
+                  <img src="./img/icons/arrow-icon.svg" alt="Ассенизаторская машина">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section step">
+      <div class="container">
+        <div class="step__inner">
+          <h2 class="title step__title">Этапы работы</h2>
+          <div class="step__items">
+            <div class="step__item">
+              <h4 class="step__item-number">01/</h4>
+              <div class="step__item-title">Онлайн заявка</div>
+              <div class="step__item-text">В своём стремлении улучшить пользовательский опыт мы упускаем, что элементы политического.</div>
+              <button class="button step__item-button">Заказать машину</button>
+            </div>
+            <div class="step__item">
+              <h4 class="step__item-number">02/</h4>
+              <div class="step__item-title">Звонок менеджера</div>
+              <div class="step__item-text">Разнообразный и богатый опыт говорит нам, что начало повседневной работы по формированию позиции не оставляет.</div>
+            </div>
+            <div class="step__item">
+              <h4 class="step__item-number">03/</h4>
+              <div class="step__item-title">Откачка</div>
+              <div class="step__item-text">И нет сомнений, что явные признаки победы институционализации неоднозначны и будут объявлены нарушающими.</div>
+            </div>
+            <div class="step__item">
+              <h4 class="step__item-number">04/</h4>
+              <div class="step__item-title">Оплата</div>
+              <div class="step__item-text">В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section promo">
+      <div class="container">
+        <div class="promo__inner">
+          <div class="promo__content">
+            <h2 class="title promo__title">Скидка 10%</h2>
+            <h4 class="promo__subtitle">Скидка 10% на первый выезд</h4>
+            <div class="promo__text">Сложно сказать, почему интерактивные прототипы призваны к ответу. Банальные, но неопровержимые выводы, а также стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, объективно рассмотрены соответствующими инстанциями. А ещё сделанные на базе.</div>
+            <button class="button promo__button" data-fancybox="contact-form-2" data-src="#modal-form">Оставить заявку</button>
+          </div>
+          <img src="./img/promo/promo-img.jpg" alt="Скидка 10%" class="promo__img">
+        </div>
+      </div>
+    </section>
+    <section class="section work">
+      <div class="container">
+        <div class="slider work__slider">
+          <div class="slider__items work__slider-items">
+            <div class="work__slider-item">
+              <h4 class="work__suptitle">Выполненные работы</h4>
+              <h2 class="title work__title">Название работы</h2>
+              <div class="work__params">
+                <h5 class="work__params-title">Характеристики</h5>
+                <ul class="work__params-items">
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
+              </div>
+              <div class="work__gallery">
+                <img src="./img/work/work-item-1.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-2.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-3.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-4.jpg" alt="" class="work__gallery-item">
+              </div>
+              <div class="work__footer">
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/material-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Материалы</div>
+                    <div class="work__footer-text">4000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/work-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Работа</div>
+                    <div class="work__footer-text">5000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/total-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Итого</div>
+                    <div class="work__footer-text">9000 руб.</div>
+                  </div>
+                  <button class="button work__footer-button" data-fancybox="contact-form-3" data-src="#modal-form">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+            <div class="work__slider-item">
+              <h4 class="work__suptitle">Выполненные работы</h4>
+              <h2 class="title work__title">Название работы</h2>
+              <div class="work__params">
+                <h5 class="work__params-title">Характеристики</h5>
+                <ul class="work__params-items">
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
+              </div>
+              <div class="work__gallery">
+                <img src="./img/work/work-item-1.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-2.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-3.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-4.jpg" alt="" class="work__gallery-item">
+              </div>
+              <div class="work__footer">
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/material-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Материалы</div>
+                    <div class="work__footer-text">4000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/work-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Работа</div>
+                    <div class="work__footer-text">5000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/total-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Итого</div>
+                    <div class="work__footer-text">9000 руб.</div>
+                  </div>
+                  <button class="button work__footer-button" data-fancybox="contact-form-4" data-src="#modal-form">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+            <div class="work__slider-item">
+              <h4 class="work__suptitle">Выполненные работы</h4>
+              <h2 class="title work__title">Название работы</h2>
+              <div class="work__params">
+                <h5 class="work__params-title">Характеристики</h5>
+                <ul class="work__params-items">
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                  <li class="work__params-item">Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
+              </div>
+              <div class="work__gallery">
+                <img src="./img/work/work-item-1.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-2.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-3.jpg" alt="" class="work__gallery-item">
+                <img src="./img/work/work-item-4.jpg" alt="" class="work__gallery-item">
+              </div>
+              <div class="work__footer">
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/material-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Материалы</div>
+                    <div class="work__footer-text">4000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/work-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Работа</div>
+                    <div class="work__footer-text">5000 руб.</div>
+                  </div>
+                </div>
+                <div class="work__footer-item">
+                  <img class="work__footer-icon" src="./img/work/total-icon.svg"/>
+                  <div class="work__footer-col">
+                    <div class="work__footer-title">Итого</div>
+                    <div class="work__footer-text">9000 руб.</div>
+                  </div>
+                  <button class="button work__footer-button" data-fancybox="contact-form-5" data-src="#modal-form">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="section reviews">
+      <div class="container">
+        <h2 class="title reviews__title">Отзывы наших клиентов</h2>
+        <div class="slider reviews__slider">
+          <div class="reviews__slider-items">
+            <div class="reviews__slider-item">
+              <div class="reviews__header">
+                <img src="./img/reviews/avatar-1.jpg" alt="" class="reviews__header-avatar">
+                <div class="reviews__header-content">
+                  <div class="reviews__header-name">Денис Смирнов</div>
+                  <div class="reviews__header-date">10.10.2019</div>
+                </div>
+              </div>
+              <div class="reviews__text">
+                Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей формируют глобальную экономическую сеть и при этом —  заблокированы в рамках своих.
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__header">
+                <img src="./img/reviews/avatar-1.jpg" alt="" class="reviews__header-avatar">
+                <div class="reviews__header-content">
+                  <div class="reviews__header-name">Денис Смирнов</div>
+                  <div class="reviews__header-date">10.10.2019</div>
+                </div>
+              </div>
+              <div class="reviews__text">
+                Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей формируют глобальную экономическую сеть и при этом —  заблокированы в рамках своих.
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__header">
+                <img src="./img/reviews/avatar-1.jpg" alt="" class="reviews__header-avatar">
+                <div class="reviews__header-content">
+                  <div class="reviews__header-name">Денис Смирнов</div>
+                  <div class="reviews__header-date">10.10.2019</div>
+                </div>
+              </div>
+              <div class="reviews__text">
+                Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей формируют глобальную экономическую сеть и при этом —  заблокированы в рамках своих.
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__header">
+                <img src="./img/reviews/avatar-1.jpg" alt="" class="reviews__header-avatar">
+                <div class="reviews__header-content">
+                  <div class="reviews__header-name">Денис Смирнов</div>
+                  <div class="reviews__header-date">10.10.2019</div>
+                </div>
+              </div>
+              <div class="reviews__text">
+                Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей формируют глобальную экономическую сеть и при этом —  заблокированы в рамках своих.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section cta">
+      <div class="container">
+        <div class="cta__inner">
+          <h2 class="title cta__title">Оставьте заявку на звонок</h2>
+          <form action="/" class="cta__form">
+            <input type="text" class="input cta__input" type="text" placeholder="Имя">
+            <input type="text" class="input cta__input" type="tel" placeholder="Телефон">
+            <button class="button cta__button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section documents">
+      <div class="container">
+        <h2 class="title documents__title">Документы и сертификаты</h2>
+        <div class="slider documents__slider">
+          <div class="documents__slider-items">
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+            <div class="documents__slider-item">
+              <img src="./img/documents/documents-1.jpg" alt="" class="documents__img">
+              <div class="documents__text">
+                Только сплочённость команды профессионалов сделала своё дело
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="section map">
+      <div class="container">
+        <div class="map__inner">
+          <div class="map__contact">
+            <h2 class="title map__contact-title">Контакты</h2>
+            <div class="map__contact-content">
+              <div class="map__contact-item">
+                <img src="./img/icons/clock-icon.svg" alt="" class="map__contact-icon">
+                <p class="map__contact-text">Приём заказов:<br>Ежедневно с 08:00 до 22:00</p>
+              </div>
+              <div class="map__contact-item">
+                <img src="./img/icons/pay-icon.svg" alt="" class="map__contact-icon">
+                <p class="map__contact-text">Оплата по договору наличными/<br>безналичными, с НДС и без НДС</p>
+              </div>
+              <div class="map__contact-item">
+                <img src="./img/icons/geo-icon.svg" alt="" class="map__contact-icon">
+                <p class="map__contact-text">Московская область, г. Пушкин,<br>ул. Красноармейская, д. 16А</p>
+              </div>
+              <div class="map__contact-footer map-contact__footer">
+                <a href="mailto:name@email.com" class="map-contact__footer-item">
+                  <img class="map__contact-icon" src="./img/icons/mail-icon.svg" alt="">
+                  <p class="map-contact__footer-text">name@email.com</p>
+                </a>
+                <a href="tel:79361003131" class="map-contact__footer-item">
+                  <img class="map__contact-icon" src="./img/icons/phone-footer.svg" alt="">
+                  <p class="map-contact__footer-text">+7 (936) 100-31-31</p>
+                </a>
+                <a href="tel:79362003131" class="map-contact__footer-item">
+                  <img class="map__contact-icon" src="./img/icons/phone-footer.svg" alt="">
+                  <p class="map-contact__footer-text">+7 (936) 200-31-31</p>
+                </a>
+                <a href="tel:79266001116" class="map-contact__footer-item">
+                  <img class="map__contact-icon" src="./img/icons/phone-footer.svg" alt="">
+                  <p class="map-contact__footer-text">+7 (926) 600-11-16</p>
+                </a>
+                
+              </div>
+            </div>
+            <div class="map__social">
+              <h4 class="map__social-title">Пишите нам в социальных сетях:</h4>
+              <div class="map__social-icons">
+                <a href="" class="map__social-link">
+                  <img src="./img/icons/whatsapp-icon.svg" alt="" class="map__social-link">
+                </a>
+                <a href="" class="map__social-link">
+                  <img src="./img/icons/tlg-icon.svg" alt="" class="map__social-link">
+                </a>
+              </div>
+            </div>
+            <button class="button map__button">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="footer__policy">Политика конфиденциальности</a>
+        <div class="footer__dev">
+          Сайт разработан
+          <img src="./img/footer/GRAMPUS.png" alt="" class="footer__dev-img">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" style="display: none;" id="modal-form">
+    <div class="modal">
+      <button class="modal-close">
+        <img src="./img/icons/close-icon.svg" alt="">
+      </button>
+      <h5 class="modal__title">Форма связи</h5>
+      <div class="modal__descr">Мы перезвоним вам в ближайшее время</div>
+      <label for="" class="modal__label">Телефон</label>
+      <input type="text" placeholder="+7 (___) ___-__-__" class="input modal__input">
+      <button class="button modal__button">Отправить</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

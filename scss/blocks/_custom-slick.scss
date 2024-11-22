@@ -1,0 +1,36 @@
+.slick-prev, .slick-next {
+  position: absolute;
+  z-index: 100;
+  top: 40px;
+  height: 44px;
+  width: 44px;
+  background-color: $blue-primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.slick-next {
+  right: 40px;
+}
+
+.slick-prev {
+  right: 100px;
+}
+
+
+@media (max-width: $mobile) {
+  .slick-prev, .slick-next {
+    top: 20px;
+  }
+
+  .slick-next {
+    right: 20px;
+  }
+  
+  .slick-prev {
+    right: 80px;
+  }
+}

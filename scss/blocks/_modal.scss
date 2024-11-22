@@ -1,0 +1,60 @@
+.modal-overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 111;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal {
+  background-color: $background-1;
+  border-radius: 5px;
+  padding: 44px 30px 30px 30px;
+  position: relative;
+  width: 100%;
+  max-width: 370px;
+
+  &-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  &__title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  &__descr {
+    font-size: 14px;
+    line-height: 18px;
+    color: $black-secondary;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  &__label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  &__input {
+    width: 100%;
+    max-width: 310px;
+    margin-bottom: 20px;
+  }
+  &__button {
+    width: 100%;
+    padding: 20px 30px;
+  }
+}
+
+
+@media (max-width: $mobile) {
+  .modal {
+    padding: 34px 20px 20px 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.menu {
+  padding: 10px 0;
+  background-color: $blue-secondary;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__item {
+    color: $white-primary;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .menu {
+    
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+    }
+  }
+}

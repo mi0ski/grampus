@@ -1,0 +1,45 @@
+.header {
+  padding: 21px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: $tablet) {
+  .header {
+    
+    &__phone {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 614px) {
+  .header {
+    
+    &__inner {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .header {
+    
+    &__phone {
+      font-size: 18px;
+    }
+  }
+}
